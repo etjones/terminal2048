@@ -1,5 +1,7 @@
 # `terminal2048`: 2048 in the terminal
 
+!['terminal2048'](img/terminal2048_screenshot.png)
+
 This is a small implementation of Gabriele Cirulli's [2048 game](https://play2048.co/) in the terminal using Python. I wrote it to learn about using the [`curses`](https://docs.python.org/3/howto/curses.html)library in Python. I learned enough about `curses` to prefer the much smoother [`blessed`](https://blessed.readthedocs.io/en/latest/intro.html) library instead, so that's what's used here.
 
 (You might also be interested in a more common package, [term2048](https://github.com/bfontaine/term2048), also available at [PyPI](https://pypi.org/project/term2048/).)
