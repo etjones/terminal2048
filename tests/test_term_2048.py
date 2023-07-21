@@ -1,5 +1,5 @@
 import unittest
-from term_2048.term_2048 import move, merge_tiles, GameAction
+from terminal2048.term_2048 import move, merge_tiles, GameAction
 
 class TestMoveFunction(unittest.TestCase):
 

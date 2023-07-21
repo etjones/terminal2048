@@ -237,7 +237,7 @@ def main() -> None:
             print(f'Score: {score}')
             print_board(board, tile_size, term)
             if is_game_over(board):
-                print("Game Over! Your score was {score}.")
+                print(f'Game Over! Your score was {score}.')
                 print('Hit a key to continue...')
                 inp = term.inkey(timeout=None)                
                 break
