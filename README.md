@@ -1,25 +1,27 @@
-# `term_2048`: 2048 in the terminal
+# `terminal2048`: 2048 in the terminal
 
 This is a small implementation of Gabriele Cirulli's [2048 game](https://play2048.co/) in the terminal using Python. I wrote it to learn about using the [`curses`](https://docs.python.org/3/howto/curses.html)library in Python. I learned enough about `curses` to prefer the much smoother [`blessed`](https://blessed.readthedocs.io/en/latest/intro.html) library instead, so that's what's used here.
+
+(You might also be interested in a more common package, [term2048](https://github.com/bfontaine/term2048), also available at [PyPI](https://pypi.org/project/term2048/).)
 
 ## Installation
 
 ```bash
-pip install term_2048
+pip install terminal2048
 ```
 
-## Running `term_2048`
+## Running `terminal2048`
 
 Once you've installed the package, you can run the game from the terminal:
 
 ```bash
-term_2048
+terminal2048
 ```
 
-Use `term_2048 --help` to print help options:
+Use `terminal2048 --help` to print help options:
 
 ```bash
-usage: term_2048 [-h] [-w WIDTH] [--height HEIGHT] [-s {S,M,L,XL}] [--start_value START_VALUE]
+usage: terminal2048 [-h] [-w WIDTH] [--height HEIGHT] [-s {S,M,L,XL}] [--start_value START_VALUE]
 
 2048 game in the terminal. Inspired by https://play2048.co/
 
@@ -42,4 +44,4 @@ Let me know if you have issues on a given OS or terminal setup.
 ### Contact & bug reports
 
 Bug reports and pull requests are welcome!
-Feel free to contact me on [Github](https://github.com/etjones/term2048) or by email at [evan_jones@mac.com](mailto:evan_jones@mac.com).)
+Feel free to contact me on [Github](https://github.com/etjones/terminal2048) or by email at [evan_jones@mac.com](mailto:evan_jones@mac.com).)
