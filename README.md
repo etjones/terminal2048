@@ -42,4 +42,4 @@ Let me know if you have issues on a given OS or terminal setup.
 ### Contact & bug reports
 
 Bug reports and pull requests are welcome!
-Feel free to contact me on [Github](https://github.com/etjones/term2048) or by email at [evan_jones@mac.com](mailto://evan_jones@mac.com).)
+Feel free to contact me on [Github](https://github.com/etjones/term2048) or by email at [evan_jones@mac.com](mailto:evan_jones@mac.com).)
